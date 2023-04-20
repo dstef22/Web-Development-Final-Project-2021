@@ -1,0 +1,140 @@
+/*
+    Created by Dallin Stefanidis
+
+    This was my final project for my Intro to Web Development class.
+    
+    Some free images used from https://pixabay.com/ and music from https://freepd.com/world.php
+    
+    DESC: My project is a website entitled "The Knight-club" which is a website that will teach you everything you need to know to become a knight. 
+    
+	This is the CSS file for my project.
+	*/
+
+body {
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+	font-family: arial, serif;
+	background-image: url("../images/metal.png");
+	background-color: #c0ded9;
+	font-size: 1em;
+} /* the base of every page */
+
+
+#header {
+	margin-top: 0.5%;
+	margin-right: 5%;
+	margin-left: 5%;
+	position: static;
+	font-family: "Times New Roman", serif;
+	font-size: 35px;
+	background-color: #8ca3a3;
+	border: 2px inset black;
+} /* Gives the header of every page some pizzazz*/
+
+#title {
+	font-weight: bold;
+	font-size: 1em;
+	text-decoration: underline;
+} /* Used to bold the header of every page */
+
+
+
+img {
+	float:left;
+	padding: 0px 10px 0px 0px;
+}
+
+.right {
+	float:right;
+} /* for things I need to float right */
+
+#content {
+	margin-top: 0.2%;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: #b2c2bf;
+	border-bottom: 1px solid black;
+	border-radius: 15px;
+}
+
+#content a {
+	color:black;
+}
+
+#content a:hover {
+	background-color:#c8c3cc;
+}/* when links in the content area are hovered over the background color changes to light brown */
+
+#nav {
+	position: sticky;
+	top: 0px;
+	background-color: #563f46;
+	border: 1.5px solid black;
+} /* keeps the navigation bar always visible */
+
+#nav a {
+	padding: 0px 1em 0em 1em;
+	display: inline;
+	border-right: 5px double black;
+	color: #c8c3cc;
+	text-decoration:none;
+	font-size: 2em;
+}
+
+#nav a:hover {
+	background-color: #c8c3cc;
+	color: black;
+}
+
+#validator {
+	float: left;
+} /* to float the validator tags */
+
+#contact {
+	margin-top: 1%;
+	margin-right: 50%;
+	margin-bottom: 3%;
+	background-color: #563f46;
+	border: 1px dashed khaki;
+	color:khaki;
+} /* for my contact information */
+
+iframe {
+	width:640px;
+	height:480px;	
+	border: none;
+} /* for the youtube videos */
+
+.spoil {
+	background-color: black;
+} /* the only time I will willingly hide info from the viewer, hides text for the jokes */
+
+.none {
+	float:none;
+} /* some images and things need the float removed */
+
+#morenav {
+	background-color:#8ca3a3;
+	margin-right: 2%;
+	margin-left: 2%;
+	border-radius: 15px;
+} /* second mini navigation bar */
+
+#morenav a {
+	margin-right: 2px;
+	border-top: 1px dashed #563f46;
+}
+
+.section {
+	border-bottom: 1px solid black;
+	border-radius: 15px;
+} /* to give all the sections a fancy border */
+
+.small {
+	width: 50em;
+}
+
+
+
+
